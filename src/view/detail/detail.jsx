@@ -1,20 +1,20 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 
-class HomeView extends React.Component {
+class DetailView extends React.Component {
   constructor(props) {
     super(...arguments)
-    this.state = {    
+    this.state = {
     }
   }
 
   render () {
     return (
       <div>
-        <h1>Home</h1>
+        <h1>detail</h1>
       </div>
     )
   }
 }
 
-export default HomeView
+export default DetailView 
